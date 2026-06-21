@@ -304,8 +304,10 @@ extern "C" {
 			Result["Statistics"]["NodesChanged"] = Rectangles.size();
 		} catch (std::exception ex) {
 			Result["Succeeded"] = false;
+#ifndef NDEBUG
 		} catch (vpsc::CriticalFailure ex) {
 			Result["Succeeded"] = false;
+#endif
 		}
 		// Output the result
 		return ReturnJSON(Result, Output);
@@ -346,8 +348,10 @@ extern "C" {
 			ExportChanges(Result, RVertexes, REdges);
 		} catch (std::exception ex) {
 			Result["Succeeded"] = false;
+#ifndef NDEBUG
 		} catch (vpsc::CriticalFailure ex) {
 			Result["Succeeded"] = false;
+#endif
 		}
 		// Output the result
 		return ReturnJSON(Result, Output);
