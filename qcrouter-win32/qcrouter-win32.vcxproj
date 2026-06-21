@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{90128F7D-9B77-47D2-93CD-031B206937CB}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>qcrouterwin32</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>F:\CIVITAS AR Contents\Quantum Circuits\Assets\Circuits\Plugins\Diagrams\x86</OutDir>
+    <TargetName>qcrouter</TargetName>
+    <IncludePath>D:\John Chen\Documents\Visual Studio 2012\Soobb Solutions\Codename Quantum Circuits\Quantum Circuits Router\libavoid;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>D:\John Chen\Documents\Visual Studio 2012\Soobb Solutions\Codename Quantum Circuits\Quantum Circuits Router\import-console\bin\Debug</OutDir>
+    <TargetName>qcrouter</TargetName>
+    <IncludePath>D:\John Chen\Documents\Visual Studio 2012\Soobb Solutions\Codename Quantum Circuits\Quantum Circuits Router\libavoid;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Full</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;QCROUTERWIN32_EXPORTS;_WINDOWS;_USRDLL;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <DebugInformationFormat>None</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;QCROUTERWIN32_EXPORTS;_WINDOWS;_USRDLL;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile />
+      <FavorSizeOrSpeed>Neither</FavorSizeOrSpeed>
+      <OmitFramePointers>false</OmitFramePointers>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;QCROUTERWIN32_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;QCROUTERWIN32_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\json.hpp" />
+    <ClInclude Include="..\libavoid\aca3.h" />
+    <ClInclude Include="..\libavoid\actioninfo.h" />
+    <ClInclude Include="..\libavoid\assertions.h" />
+    <ClInclude Include="..\libavoid\block.h" />
+    <ClInclude Include="..\libavoid\blocks.h" />
+    <ClInclude Include="..\libavoid\box.h" />
+    <ClInclude Include="..\libavoid\cbuffer.h" />
+    <ClInclude Include="..\libavoid\cc_clustercontainmentconstraints.h" />
+    <ClInclude Include="..\libavoid\cc_nonoverlapconstraints.h" />
+    <ClInclude Include="..\libavoid\cluster.h" />
+    <ClInclude Include="..\libavoid\cola.h" />
+    <ClInclude Include="..\libavoid\cola_log.h" />
+    <ClInclude Include="..\libavoid\cola_topology_addon.h" />
+    <ClInclude Include="..\libavoid\commondefs.h" />
+    <ClInclude Include="..\libavoid\compound_constraints.h" />
+    <ClInclude Include="..\libavoid\conjugate_gradient.h" />
+    <ClInclude Include="..\libavoid\connected_components.h" />
+    <ClInclude Include="..\libavoid\connectionpin.h" />
+    <ClInclude Include="..\libavoid\connector.h" />
+    <ClInclude Include="..\libavoid\connend.h" />
+    <ClInclude Include="..\libavoid\constraint.h" />
+    <ClInclude Include="..\libavoid\convex_hull.h" />
+    <ClInclude Include="..\libavoid\debug.h" />
+    <ClInclude Include="..\libavoid\debughandler.h" />
+    <ClInclude Include="..\libavoid\dllexport.h" />
+    <ClInclude Include="..\libavoid\exceptions.h" />
+    <ClInclude Include="..\libavoid\geometry.h" />
+    <ClInclude Include="..\libavoid\geomtypes.h" />
+    <ClInclude Include="..\libavoid\gradient_projection.h" />
+    <ClInclude Include="..\libavoid\graph.h" />
+    <ClInclude Include="..\libavoid\hyperedge.h" />
+    <ClInclude Include="..\libavoid\hyperedgeimprover.h" />
+    <ClInclude Include="..\libavoid\hyperedgetree.h" />
+    <ClInclude Include="..\libavoid\isnan.h" />
+    <ClInclude Include="..\libavoid\junction.h" />
+    <ClInclude Include="..\libavoid\libavoid.h" />
+    <ClInclude Include="..\libavoid\linesegment.h" />
+    <ClInclude Include="..\libavoid\makepath.h" />
+    <ClInclude Include="..\libavoid\mtst.h" />
+    <ClInclude Include="..\libavoid\obstacle.h" />
+    <ClInclude Include="..\libavoid\orthogonal.h" />
+    <ClInclude Include="..\libavoid\orthogonal_topology.h" />
+    <ClInclude Include="..\libavoid\pairing_heap.h" />
+    <ClInclude Include="..\libavoid\pseudorandom.h" />
+    <ClInclude Include="..\libavoid\rectangle.h" />
+    <ClInclude Include="..\libavoid\router.h" />
+    <ClInclude Include="..\libavoid\scanline.h" />
+    <ClInclude Include="..\libavoid\shape.h" />
+    <ClInclude Include="..\libavoid\shapepair.h" />
+    <ClInclude Include="..\libavoid\shortest_paths.h" />
+    <ClInclude Include="..\libavoid\solve_VPSC.h" />
+    <ClInclude Include="..\libavoid\sparse_matrix.h" />
+    <ClInclude Include="..\libavoid\straightener.h" />
+    <ClInclude Include="..\libavoid\stress_terms.h" />
+    <ClInclude Include="..\libavoid\timer.h" />
+    <ClInclude Include="..\libavoid\topology_constraints.h" />
+    <ClInclude Include="..\libavoid\topology_graph.h" />
+    <ClInclude Include="..\libavoid\topology_log.h" />
+    <ClInclude Include="..\libavoid\unused.h" />
+    <ClInclude Include="..\libavoid\util.h" />
+    <ClInclude Include="..\libavoid\variable.h" />
+    <ClInclude Include="..\libavoid\vertices.h" />
+    <ClInclude Include="..\libavoid\viscluster.h" />
+    <ClInclude Include="..\libavoid\visibility.h" />
+    <ClInclude Include="..\libavoid\vpsc.h" />
+    <ClInclude Include="..\qcrouter.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\libavoid\aca3.cpp" />
+    <ClCompile Include="..\libavoid\actioninfo.cpp" />
+    <ClCompile Include="..\libavoid\block.cpp" />
+    <ClCompile Include="..\libavoid\blocks.cpp" />
+    <ClCompile Include="..\libavoid\box.cpp" />
+    <ClCompile Include="..\libavoid\cbuffer.cpp" />
+    <ClCompile Include="..\libavoid\cc_clustercontainmentconstraints.cpp" />
+    <ClCompile Include="..\libavoid\cc_nonoverlapconstraints.cpp" />
+    <ClCompile Include="..\libavoid\cluster.cpp" />
+    <ClCompile Include="..\libavoid\cola.cpp" />
+    <ClCompile Include="..\libavoid\colafd.cpp" />
+    <ClCompile Include="..\libavoid\cola_topology_addon.cpp" />
+    <ClCompile Include="..\libavoid\compound_constraints.cpp" />
+    <ClCompile Include="..\libavoid\compute_forces.cpp" />
+    <ClCompile Include="..\libavoid\conjugate_gradient.cpp" />
+    <ClCompile Include="..\libavoid\connected_components.cpp" />
+    <ClCompile Include="..\libavoid\connectionpin.cpp" />
+    <ClCompile Include="..\libavoid\connector.cpp" />
+    <ClCompile Include="..\libavoid\connend.cpp" />
+    <ClCompile Include="..\libavoid\constraint.cpp" />
+    <ClCompile Include="..\libavoid\convex_hull.cpp" />
+    <ClCompile Include="..\libavoid\geometry.cpp" />
+    <ClCompile Include="..\libavoid\geomtypes.cpp" />
+    <ClCompile Include="..\libavoid\gradient_projection.cpp" />
+    <ClCompile Include="..\libavoid\graph.cpp" />
+    <ClCompile Include="..\libavoid\hyperedge.cpp" />
+    <ClCompile Include="..\libavoid\hyperedgeimprover.cpp" />
+    <ClCompile Include="..\libavoid\hyperedgetree.cpp" />
+    <ClCompile Include="..\libavoid\junction.cpp" />
+    <ClCompile Include="..\libavoid\makepath.cpp" />
+    <ClCompile Include="..\libavoid\mtst.cpp" />
+    <ClCompile Include="..\libavoid\obstacle.cpp" />
+    <ClCompile Include="..\libavoid\orthogonal.cpp" />
+    <ClCompile Include="..\libavoid\orthogonal_topology.cpp" />
+    <ClCompile Include="..\libavoid\output_svg.cpp" />
+    <ClCompile Include="..\libavoid\pseudorandom.cpp" />
+    <ClCompile Include="..\libavoid\rectangle.cpp" />
+    <ClCompile Include="..\libavoid\resize.cpp" />
+    <ClCompile Include="..\libavoid\router.cpp" />
+    <ClCompile Include="..\libavoid\scanline.cpp" />
+    <ClCompile Include="..\libavoid\shape.cpp" />
+    <ClCompile Include="..\libavoid\shapepair.cpp" />
+    <ClCompile Include="..\libavoid\solve_VPSC.cpp" />
+    <ClCompile Include="..\libavoid\straightener.cpp" />
+    <ClCompile Include="..\libavoid\stress_terms.cpp" />
+    <ClCompile Include="..\libavoid\timer.cpp" />
+    <ClCompile Include="..\libavoid\topology_constraints.cpp" />
+    <ClCompile Include="..\libavoid\topology_constraints_constructor.cpp" />
+    <ClCompile Include="..\libavoid\topology_graph.cpp" />
+    <ClCompile Include="..\libavoid\variable.cpp" />
+    <ClCompile Include="..\libavoid\vertices.cpp" />
+    <ClCompile Include="..\libavoid\viscluster.cpp" />
+    <ClCompile Include="..\libavoid\visibility.cpp" />
+    <ClCompile Include="..\libavoid\vpsc.cpp" />
+    <ClCompile Include="..\qcrouter.cpp" />
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

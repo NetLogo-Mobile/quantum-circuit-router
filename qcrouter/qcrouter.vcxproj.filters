@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\qcrouter.cpp">
+      <Filter>Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libavoid\actioninfo.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libavoid\connectionpin.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libavoid\connector.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libavoid\connend.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libavoid\geometry.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libavoid\geomtypes.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libavoid\graph.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libavoid\hyperedge.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libavoid\hyperedgeimprover.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libavoid\hyperedgetree.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libavoid\junction.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libavoid\makepath.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libavoid\mtst.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libavoid\obstacle.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libavoid\orthogonal.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libavoid\router.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libavoid\scanline.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libavoid\shape.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libavoid\timer.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libavoid\vertices.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libavoid\viscluster.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libavoid\visibility.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libavoid\vpsc.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libavoid\block.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libavoid\blocks.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libavoid\box.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libavoid\cbuffer.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libavoid\cc_clustercontainmentconstraints.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libavoid\cc_nonoverlapconstraints.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libavoid\cluster.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libavoid\cola.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libavoid\colafd.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libavoid\compound_constraints.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libavoid\conjugate_gradient.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libavoid\connected_components.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libavoid\constraint.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libavoid\convex_hull.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libavoid\gradient_projection.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libavoid\output_svg.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libavoid\pseudorandom.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libavoid\rectangle.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libavoid\shapepair.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libavoid\solve_VPSC.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libavoid\straightener.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libavoid\variable.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libavoid\topology_graph.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libavoid\topology_constraints_constructor.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libavoid\topology_constraints.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libavoid\resize.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libavoid\orthogonal_topology.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libavoid\compute_forces.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libavoid\cola_topology_addon.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libavoid\stress_terms.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libavoid\aca3.cpp">
+      <Filter>libavoid</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\qcrouter.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\json.hpp">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\actioninfo.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\assertions.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\connectionpin.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\connector.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\connend.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\debug.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\debughandler.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\dllexport.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\geometry.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\geomtypes.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\graph.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\hyperedge.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\hyperedgeimprover.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\hyperedgetree.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\junction.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\libavoid.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\makepath.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\mtst.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\obstacle.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\orthogonal.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\router.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\scanline.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\shape.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\timer.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\vertices.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\viscluster.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\visibility.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\vpsc.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\block.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\blocks.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\box.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\cbuffer.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\cc_clustercontainmentconstraints.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\cc_nonoverlapconstraints.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\cluster.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\cola.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\cola_log.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\commondefs.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\compound_constraints.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\conjugate_gradient.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\connected_components.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\constraint.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\convex_hull.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\exceptions.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\gradient_projection.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\isnan.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\linesegment.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\output_svg.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\pairing_heap.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\pseudorandom.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\rectangle.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\shapepair.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\shortest_paths.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\solve_VPSC.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\sparse_matrix.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\straightener.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\unused.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\variable.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\util.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\topology_log.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\topology_graph.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\topology_constraints.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\orthogonal_topology.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\cola_topology_addon.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\stress_terms.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libavoid\aca3.h">
+      <Filter>libavoid</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Interfaces">
+      <UniqueIdentifier>{55bd60e0-1ff5-49ef-ba30-a4b94db0007d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libavoid">
+      <UniqueIdentifier>{b0d2e7f1-5f2e-4c59-950a-70dd02ac6bf6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
